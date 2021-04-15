@@ -13,6 +13,7 @@
 		847515F426286B290005851D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847515F326286B290005851D /* Preview Assets.xcassets */; };
 		847515FF26286B290005851D /* MemoryGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847515FE26286B290005851D /* MemoryGameTests.swift */; };
 		8475160A26286B290005851D /* MemoryGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475160926286B290005851D /* MemoryGameUITests.swift */; };
+		8475161B262872480005851D /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475161A262872480005851D /* Cards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8475160526286B290005851D /* MemoryGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8475160926286B290005851D /* MemoryGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameUITests.swift; sourceTree = "<group>"; };
 		8475160B26286B290005851D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8475161A262872480005851D /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				847515F026286B290005851D /* Assets.xcassets */,
 				847515F526286B290005851D /* Info.plist */,
 				847515F226286B290005851D /* Preview Content */,
+				8475161A262872480005851D /* Cards.swift */,
 			);
 			path = MemoryGame;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8475161B262872480005851D /* Cards.swift in Sources */,
 				847515EF26286B280005851D /* ContentView.swift in Sources */,
 				847515ED26286B280005851D /* MemoryGameApp.swift in Sources */,
 			);

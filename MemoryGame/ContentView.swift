@@ -8,9 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+  
+  let cardAmount = 20
+  
+  var colNum = 4
+  var columns: [GridItem] = []
+  
+  init() {
+    for _ in 1...colNum {
+      columns.append(GridItem(.flexible()))
+    }
+    
+    
+    
+  }
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+      VStack{
+        LazyVGrid(columns: columns, spacing: 20) {
+          ForEach(1...cardAmount, id: \.self) {
+            Rectangle().scaledToFit().id($0)
+          }
+          
+        }
+        
+        Spacer()
+      }
+
     }
 }
 
